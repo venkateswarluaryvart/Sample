@@ -51,6 +51,10 @@
     [self.pLabel setRoundedCornersWidth:10];
 
 }
+
+// this is new changes
+
+
 -(NSString*)timerLabel:(MZTimerLabel*)timerLabel customTextToDisplayAtTime:(NSTimeInterval)time
 {
     [self.pLabel setProgress:(_pLabel.progress + 0.0017f)];

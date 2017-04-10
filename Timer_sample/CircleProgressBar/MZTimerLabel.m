@@ -63,7 +63,7 @@
         [_timer invalidate];
     }
 }
-
+// this is new changes
 - (id)initWithTimerType:(MZTimerLabelType)theType {
     return [self initWithFrame:CGRectZero label:nil andTimerType:theType];
 }
