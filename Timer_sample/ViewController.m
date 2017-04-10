@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+// this is new changes
     timerExample6 = [[MZTimerLabel alloc] initWithLabel:_lblTimerExample6 andTimerType:MZTimerLabelTypeTimer];
     timerExample6.timeFormat = @"hh:mm:ss";
     [timerExample6 setCountDownTime:3600];
