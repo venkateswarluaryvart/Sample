@@ -63,6 +63,8 @@
     
     }
     
+    NSLog(@"Testing purpose %@", str);
+    
     return str;
 }
 - (void)timerLabel:(MZTimerLabel*)timerLabel finshedCountDownTimerWithTime:(NSTimeInterval)countTime{
