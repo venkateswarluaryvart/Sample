@@ -37,7 +37,7 @@
     
     
     self.pLabel.labelAnimCompleteBlock = ^(KAProgressLabel *label) {
-        NSLog(@"Animation complete !");
+       // NSLog(@"Animation complete !");
     };
     
     [self.pLabel setTrackWidth: 2.0];
